@@ -9,9 +9,13 @@ Navigate to your projects folder (wherever you keep your projects)
 
 ``cd projectfolder``
 
+If you don't have one, make one by typing
+
+``mkdir foldername``
+
 Clone the repository (this will make a folder and pull this code onto your computer)
 
-``git@github.com:carbonfive/stylegun.git``
+``git clone https://github.com/carbonfive/stylegun.git``
 
 
 ## Setting up your environment
