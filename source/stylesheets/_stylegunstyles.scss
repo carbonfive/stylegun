@@ -68,6 +68,9 @@ h4.label {
   @extend .cf;
   margin-bottom: 20px;
 }
+.color-tile {
+  font-size: 2rem;
+}
 .primary-palette .color-tile {
   width: 26%;
   height: 20vw;
@@ -107,7 +110,6 @@ h4.label {
 /*----------Color Palettes----------*/
 
 .color-tile {
-  font-size: 14px;
   border: 1px solid #ccc;
   display: block;
   float: left;
