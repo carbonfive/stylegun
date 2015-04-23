@@ -1,0 +1,554 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 80%;
+  margin-left: 10%;
+  border-top: 15px solid rgb(0, 0, 0);
+}
+
+.container .element {
+  width: 31.9791666666%;
+  height: 295px;
+  margin-top: 30px;
+  border-width: 4px;
+  border-color: rgb(255, 0, 0) rgb(255, 255, 0) rgb(0, 255, 0) rgb(0, 236, 255);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+}
+
+.element {
+  float: left;
+}
+
+.element .text {
+  float: left;
+  margin-left: 20.19544%;
+  font-weight: 400;
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 21;
+  width: 470px;
+  height: auto;
+  margin: -429px 0 0 30.39974%;
+  overflow: hidden;
+}
+
+.text {
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-8 p {
+  margin-bottom: 1em;
+}
+
+._element {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 450px;
+  background: url('../images/brick(2).jpg') rgb(222, 222, 222);
+  background-size: 45px 45px;
+  background-position: left top;
+}
+
+.container-1 {
+  height: 430px;
+  margin-top: 75px;
+}
+
+.container-2 {
+  height: 445px;
+  margin-top: 57px;
+}
+
+.container-3 {
+  height: 300px;
+  margin-top: 85px;
+}
+
+.element-2 {
+  clear: both;
+}
+
+.element-3 {
+  position: relative;
+  z-index: 8;
+  margin-left: 2.01823%;
+}
+
+.element-4 {
+  margin-left: 2.01823%;
+}
+
+.text-1 {
+  width: 80%;
+  min-height: 35px;
+  margin: 550px auto 0;
+  font-family: Lexia-Regular;
+  font-size: 1.313em;
+  font-weight: normal;
+}
+
+.text-11,
+.text-7,
+.text-9 {
+  width: 58.9576547231%;
+  min-height: 58px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.text-10,
+.text-12,
+.text-8 {
+  clear: both;
+  width: 53.2899022801%;
+  min-height: 153px;
+  margin-top: 5px;
+  font-size: 1.625em;
+}
+
+.text-13 {
+  width: 31.9791666666%;
+  min-height: 35px;
+  margin: 50px auto 0;
+  font-family: lexia;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.text-14 {
+  float: left;
+  clear: both;
+  width: 100.0541771356%;
+  min-height: 198px;
+  margin: 30px 0 0 -0.05371%;
+  font-size: 1.375em;
+  font-weight: 400;
+}
+
+.text-2 {
+  width: 52.8333333333%;
+  min-height: 35px;
+  margin: 75px auto 0;
+  font-size: 0.375em;
+  font-weight: 400;
+}
+
+.text-3 {
+  float: left;
+  width: 31.9791666666%;
+  min-height: 35px;
+  margin: 50px 0 0 33.9974%;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.text-4 {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 72px;
+  margin-top: 30px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.text-5 {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 72px;
+  margin-top: 40px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.text-6 {
+  width: 31.9791666666%;
+  min-height: 35px;
+  margin: 50px auto 0;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-1 span {
+  font-family: lexia;
+  font-style: inherit;
+  font-size: 1.905em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.text-11 span {
+  font-family: lexia;
+  font-style: inherit;
+  font-size: 1.875em;
+  font-weight: 900;
+  text-transform: inherit;
+}
+
+.text-12 span {
+  font-family: lexia;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 100;
+  text-transform: inherit;
+}
+
+.text-13 span {
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 900;
+  text-transform: inherit;
+}
+
+.text-10 span,
+.text-14 span,
+.text-8 span {
+  font-family: lexia;
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 100;
+  text-transform: inherit;
+}
+
+.text-2 span {
+  font-family: lexia;
+  font-style: inherit;
+  font-size: 1.429em;
+  font-weight: 100;
+  text-transform: inherit;
+}
+
+.text-4 span,
+.text-5 span {
+  font-family: lexia;
+  font-style: normal;
+  font-size: 2em;
+  font-weight: 100;
+  text-transform: inherit;
+}
+
+.text-3 span,
+.text-6 span {
+  font-family: lexia;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 900;
+  text-transform: inherit;
+}
+
+.text-7 span,
+.text-9 span {
+  font-family: lexia;
+  font-style: normal;
+  font-size: 1.875em;
+  font-weight: 900;
+  text-transform: inherit;
+}
+
+@media(max-width: 768px) {
+  .container {
+    margin-left: 9.99756%;
+  }
+
+  .element {
+    height: 300px;
+  }
+
+  .element .text {
+    width: 100.2703992365%;
+  }
+
+  .image {
+    position: relative;
+    z-index: 21;
+    width: 329px;
+    height: auto;
+    margin-top: -300px;
+    margin-left: 28.35897%;
+  }
+
+  ._element {
+    position: relative;
+    z-index: 1;
+  }
+
+  .container .element-3 {
+    position: relative;
+    z-index: 8;
+    margin-left: 2.01928%;
+  }
+
+  .container .element-4 {
+    margin-left: 2.01928%;
+  }
+
+  .container .text-14 {
+    margin-left: -0.05341%;
+  }
+
+  .container .text-3 {
+    margin-left: 33.9971%;
+  }
+
+  .container-1 {
+    margin-top: 110px;
+  }
+
+  .container-2 {
+    margin-top: 50px;
+  }
+
+  .container-3 {
+    margin-top: 70px;
+  }
+
+  .element .text-10,
+  .element .text-9 {
+    margin-left: -0.3260700001%;
+  }
+
+  .element .text-11,
+  .element .text-12 {
+    margin-left: -0.2704%;
+  }
+
+  .element .text-7,
+  .element .text-8 {
+    margin-left: -0.39765%;
+  }
+
+  .text-1 {
+    float: left;
+    clear: both;
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: 9.99756%;
+  }
+
+  .text-2 {
+    float: left;
+    clear: both;
+    margin-top: 82px;
+    margin-right: 0;
+    margin-left: 23.58195%;
+  }
+
+  .text-1 span {
+    font-size: 1.429em;
+  }
+
+  .text-11 span,
+  .text-5 span,
+  .text-7 span,
+  .text-9 span {
+    font-size: 1.625em;
+  }
+
+  .text-2 span {
+    font-size: 1.143em;
+  }
+
+  .text-4 span {
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+
+  .element {
+    height: 238px;
+  }
+
+  .element .text {
+    position: relative;
+  }
+
+  .image {
+    position: relative;
+    z-index: 21;
+    width: 237px;
+    height: auto;
+    margin-top: -224px;
+    margin-left: 24.36849%;
+  }
+
+  ._element {
+    position: relative;
+    z-index: 1;
+  }
+
+  .container .element-2 {
+    width: 99.7395833333%;
+    height: 219px;
+  }
+
+  .container .element-3 {
+    position: relative;
+    clear: both;
+    z-index: 8;
+    width: 100%;
+    height: 110px;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .container .element-4 {
+    clear: both;
+    width: 100%;
+    height: 110px;
+    margin-top: 21px;
+    margin-left: 0;
+  }
+
+  .container .text-13 {
+    width: 100.78125%;
+  }
+
+  .container .text-14 {
+    margin-top: 65px;
+    margin-left: -0.0529%;
+  }
+
+  .container .text-3 {
+    margin-left: 33.99658%;
+  }
+
+  .container-1 {
+    margin-top: 25px;
+    margin-left: 10%;
+  }
+
+  .container-2 {
+    height: 605px;
+    margin-top: 45px;
+    margin-left: 10%;
+  }
+
+  .container-3 {
+    margin-top: 75px;
+    margin-left: 10.10417%;
+  }
+
+  .element .text-10 {
+    z-index: 7;
+    margin-top: -15px;
+    margin-left: -0.26855%;
+  }
+
+  .element .text-11 {
+    z-index: 9;
+    margin-top: 5px;
+    margin-left: -0.26855%;
+  }
+
+  .element .text-12 {
+    z-index: 10;
+    margin-top: -15px;
+    margin-left: -0.26855%;
+  }
+
+  .element .text-7 {
+    z-index: 3;
+    margin-top: 5px;
+    margin-left: -0.26926%;
+  }
+
+  .element .text-8 {
+    z-index: 4;
+    margin-top: -15px;
+    margin-left: -0.26926%;
+  }
+
+  .element .text-9 {
+    z-index: 6;
+    margin-top: 5px;
+    margin-left: -0.26855%;
+  }
+
+  .text-1 {
+    clear: none;
+    margin-top: 14px;
+    margin-left: 10%;
+    font-family: Lexia;
+    font-weight: Regular;
+  }
+
+  .text-2 {
+    width: 79.7916666666%;
+    margin-top: 25px;
+    margin-left: 10.10417%;
+  }
+
+  .text-1 span {
+    font-family: inherit;
+    font-size: 1.048em;
+  }
+
+  .text-11 span,
+  .text-7 span,
+  .text-9 span {
+    font-size: 1.375em;
+  }
+
+  .text-10 span,
+  .text-12 span,
+  .text-8 span {
+    font-size: 0.769em;
+  }
+
+  .text-14 span {
+    font-size: 1.25em;
+    font-weight: 300;
+  }
+
+  .text-2 span {
+    font-size: 0.952em;
+  }
+
+  .text-4 span,
+  .text-5 span {
+    font-size: 1.25em;
+  }
+}
