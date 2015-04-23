@@ -39,7 +39,7 @@ Change the name of the repo to something specific to your project
 
 ## Setting up your environment
 
-Make sure you're in the folder by typing
+Make sure you're in the folder by typing (in your terminal)
 
 ``pwd``
 
@@ -49,9 +49,9 @@ Install Middleman
 
 ``gem install middleman``
 
-Then, run the server with
+Then, run the server to see your stylegun and changes with
 
-``middlemand server``
+``middleman server``
 
 Open the address in your browser (localhost:4567) and there's your page!
 
@@ -61,7 +61,7 @@ Open the folder (through your GUI or through the command line)
 
 `` Open . ``
 
-Open Source, then Images and add images or graphics there
+Open Source, then Images and add images or graphics there.
 
 
 ## Customizing styles
@@ -70,8 +70,15 @@ Open the whole folder in your text editor (Sublime, Atom, Brackets, etc).
 
 In the Source folder, you will find the stylesheets folder. In stylesheets, you will see partials for Fonts, Colors, Logo, and Hero Image.
 
-You only need to edit the partials, which are the stylesheets starting with a _
-You can add hex codes, images and fonts there.
+You only need to edit the partials, which are the stylesheets starting with a "_", for example "_fonts". You shouldn't have to edit "_stylegunstyles" but you can if you are trying to change the layout of stylegun.
+
+You can add hex codes, images and fonts in the partials.
+
+To view the changes you've made, go back to your command line interface (terminal). In your terminal, run the server by typing:
+
+``middleman server``
+
+Open the address in your browser (localhost:4567) and there's your page!
 
 ## Push up to Github
 
