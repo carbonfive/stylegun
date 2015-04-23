@@ -1,10 +1,10 @@
 /* line 10, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-white {
-  background: url(/images/stylegun-black.svg) no-repeat center center; }
+  background: url(images/stylegun-black.svg) no-repeat center center; }
 
 /* line 14, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-black {
-  background: url(/images/stylegun-white.svg) no-repeat center center; }
+  background: url(images/stylegun-white.svg) no-repeat center center; }
 
 /* line 18, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-white, .logo-image-black {
@@ -16,7 +16,7 @@
 
 /* line 4, /projects/stylegun/source/stylesheets/_hero-image.scss */
 .hero-image {
-  background: url(/images/heroimage.svg) no-repeat center;
+  background: url(images/heroimage.svg) no-repeat center;
   background-size: cover;
   min-height: 493px; }
 
