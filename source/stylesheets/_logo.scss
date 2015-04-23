@@ -1,24 +1,24 @@
+// To add logos, add the images to the image folder on your computer, change the file name here ot images/yourfilename
+//
+// .logo-a {
+// 	.logo-image {
+// 	background: url(/images/logoa.svg) no-repeat;
+// 	}
+// }
 
-.logo-a {
-	.logo-image {
-	background: url(/images/logoa.png) no-repeat;
-	width: 200px;
-	height: 100px;
-	}
+
+.logo-image-white {
+	background: url(/images/stylegun-black.svg) no-repeat center center;
 }
 
-.logo-b {
-	.logo-image {
-	background: url(/images/logoc.png) no-repeat;
-	width: 200px;
-	height: 100px;
-	}
+.logo-image-black {
+	background: url(/images/stylegun-white.svg) no-repeat center center;
 }
 
-
-.logo-a, .logo-b {
-	.logo-image {
-	background-size: contain;
-	margin-top: 1rem;
-	}
+.logo-image-white, .logo-image-black {
+	height: 40%;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }

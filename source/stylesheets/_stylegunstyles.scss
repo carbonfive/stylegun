@@ -1,11 +1,135 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
+  color: $default-color;
+}
+
+h1.label {
+  font-size: 2rem;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+h2.label {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  display: inline-block;
 }
 
 h3.label {
-  
+  font-size: 1.75rem;
+  text-transform: uppercase;
 }
+
+h4.label {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #414042;
+}
+
+.block {
+  width: 90%;
+  margin: 5% auto;
+  @extend .cf;
+}
+
+.block.palette {
+  font-size:0;
+}
+
+.hero-image {
+  width: 100%;
+  margin: 0;
+}
+
+/*----------Project Name----------*/
+
+.header {
+  margin: 0;
+}
+
+.project-name {
+  width: 100%;
+  .container {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+  }
+}
+
+.primary-palette,
+.secondary-palette,
+.tertiary-palette {
+  @extend .cf;
+  margin-bottom: 20px;
+}
+.primary-palette .color-tile {
+  width: 25%;
+  height: 20vw;
+}
+.secondary-palette .color-tile {
+  width: 20%;
+  height: 16vw;
+}
+.tertiary-palette .color-tile {
+  width: 10%;
+  height: 8vw;
+}
+
+/*----------Logo Options----------*/
+
+.logo-options {
+  border-bottom: 1px solid #000;
+}
+
+.logo-background {
+  display: inline-block;
+  position: relative;
+  width: 49.75vw;
+  height: 40vh;
+
+  &.white {
+    background-color: #fff;
+  }
+
+  &.black {
+    background-color: #000;
+  }
+}
+
+
+
+/*----------Color Palettes----------*/
+
+.color-tile {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+  width: 8rem;
+  height: 8rem;
+  margin: 2%;
+  padding: 1%;
+  text-align: center;
+}
+
+.primary-color-one { background-color: $primary-color-one; }
+.primary-color-two { background-color: $primary-color-two; }
+.primary-color-three { background-color: $primary-color-three; }
+.secondary-color-one { background-color: $secondary-color-one; }
+.secondary-color-two { background-color: $secondary-color-two; }
+.secondary-color-three { background-color: $secondary-color-three; }
+.secondary-color-four { background-color: $secondary-color-four; }
+.secondary-color-five { background-color: $secondary-color-five; }
+.secondary-color-six { background-color: $secondary-color-six; }
+.system-color-one { background-color: $system-color-one; }
+.system-color-two { background-color: $system-color-two; }
+.system-color-three { background-color: $system-color-three; }
 
 /* ----------------- micro clearfix --------------- */
 /**
