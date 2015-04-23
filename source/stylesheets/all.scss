@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import 'logo';
+@import 'hero-image';
+@import 'colors';
+@import 'fonts';
+@import 'stylegunstyles';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $default-color;
+}
+
+h1.label{
+  font-size: 3rem;
+}
+
+h2.label{
+  font-size: 2rem;
+}
+
+h3.label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  
+}
+
+.block {
+  margin: auto;
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+  clear:both;
+}
+
+.block.palette {
+  font-size:0;
+}
+
+/*----------Project Name----------*/
+
+ .project-name {
+   background-color: gray;
+   width: 100%;
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+ }
+
+
+/*----------Logo Options----------*/
+
+.logo-a, .logo-b {
+  display: inline-block;
+}
+
+
+/*----------Color Palettes----------*/
+
+.color-tile {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  display: block;
+  float:left;
+  width: 8rem;
+  height: 8rem;
+  margin:auto;
+  text-align: center;
+}
+
+.primary-color-one { background-color: $primary-color-one; }
+.primary-color-two { background-color: $primary-color-two; }
+.primary-color-three { background-color: $primary-color-three; }
+.secondary-color-one { background-color: $secondary-color-one; }
+.secondary-color-two { background-color: $secondary-color-two; }
+.secondary-color-three { background-color: $secondary-color-three; }
+.secondary-color-four { background-color: $secondary-color-four; }
+.secondary-color-five { background-color: $secondary-color-five; }
+.secondary-color-six { background-color: $secondary-color-six; }
+.system-color-one { background-color: $system-color-one; }
+.system-color-two { background-color: $system-color-two; }
+.system-color-three { background-color: $system-color-three; }

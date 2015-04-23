@@ -1,0 +1,24 @@
+
+.logo-a {
+	.logo-image {
+	background: url(/images/logoa.png) no-repeat;
+	width: 200px;
+	height: 100px;
+	}
+}
+
+.logo-b {
+	.logo-image {
+	background: url(/images/logoc.png) no-repeat;
+	width: 200px;
+	height: 100px;
+	}
+}
+
+
+.logo-a, .logo-b {
+	.logo-image {
+	background-size: contain;
+	margin-top: 1rem;
+	}
+}
