@@ -9,6 +9,8 @@ If you've never used git before, open a command line interface (Terminal, iTerm,
 
 and then follow instructions from the prompt.
 
+If you have never set up any development tools, check out this blog post or grab a developer wandering nearby. [http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/](http://burnedpixel.com/blog/beginners-setup-guide-for-ruby-node-git-github-on-your-mac/)
+
 ## Clone this repo
 
 Once you have git working, navigate to your projects folder (wherever you keep your projects)
