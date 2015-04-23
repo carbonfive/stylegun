@@ -44,15 +44,26 @@ title: STYLEGUN
 
 <div class="block fonts">
   <h3 class="label">Headings</h3>
-    <h1>h1 header</h1>
-    <h2>h2 header</h2>
-    <h3>h3 header</h3>
-    <h4>h4 header</h4>
-    <h5>h5 header</h5>
-    <h6>h6 header</h6>
-    <p>Paragraph text appears like this</p>
-    <p>A <a href="#">link in text</a> appears like this</p>
+  <h1>h1 header</h1>
+  <h2>h2 header</h2>
+  <h3>h3 header</h3>
+  <h4>h4 header</h4>
+  <h5>h5 header</h5>
+  <h6>h6 header</h6>
+  <p>Paragraph text appears like this</p>
+  <p>A <a href="#">link in text</a> appears like this</p>
 </div>
 
 <div class="code-samples">
+  <div class="block">
+
+  <h3 class="label">colors.scss</h3>
+  <pre>
+    <%= File.read './source/stylesheets/_colors.scss' %>
+  </pre> 
+  <h3 class="label">fonts.scss</h3>
+  <pre>
+    <%= File.read './source/stylesheets/_fonts.scss' %>
+  </pre>
+</div>
 </div>
