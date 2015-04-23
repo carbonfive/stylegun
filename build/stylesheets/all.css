@@ -1,10 +1,10 @@
 /* line 10, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-white {
-  background: url(images/stylegun-black.svg) no-repeat center center; }
+  background: url(/images/stylegun-black.svg) no-repeat center center; }
 
 /* line 14, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-black {
-  background: url(images/stylegun-white.svg) no-repeat center center; }
+  background: url(/images/stylegun-white.svg) no-repeat center center; }
 
 /* line 18, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-image-white, .logo-image-black {
@@ -16,7 +16,7 @@
 
 /* line 4, /projects/stylegun/source/stylesheets/_hero-image.scss */
 .hero-image {
-  background: url(images/heroimage.svg) no-repeat center;
+  background: url(/images/hero-image.jpg) no-repeat center;
   background-size: cover;
   min-height: 493px; }
 
@@ -124,12 +124,12 @@ h4.label {
 
 /* line 71, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .primary-palette .color-tile {
-  width: 25%;
+  width: 26%;
   height: 20vw; }
 
 /* line 75, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .secondary-palette .color-tile {
-  width: 20%;
+  width: 18%;
   height: 16vw; }
 
 /* line 79, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
@@ -170,23 +170,23 @@ h4.label {
 
 /* line 121, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .primary-color-one {
-  background-color: #f7f7f7; }
+  background-color: #000; }
 
 /* line 122, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .primary-color-two {
-  background-color: #f7f7f7; }
+  background-color: #e829a7; }
 
 /* line 123, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .primary-color-three {
-  background-color: #f7f7f7; }
+  background-color: #fff; }
 
 /* line 124, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .secondary-color-one {
-  background-color: #f7f7f7; }
+  background-color: #00e7d7; }
 
 /* line 125, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .secondary-color-two {
-  background-color: #f7f7f7; }
+  background-color: #f5ff5c; }
 
 /* line 126, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .secondary-color-three {
@@ -216,6 +216,19 @@ h4.label {
 .system-color-three {
   background-color: #f7f7f7; }
 
+/* ----------------- raw css --------------- */
+/* line 136, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.code-samples {
+  background-color: #f0f0f0 !important;
+  border-top: 1px solid #ccc; }
+  /* line 139, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+  .code-samples pre {
+    color: white;
+    background-color: #414042;
+    border-radius: 4px;
+    border: 1px solid #979797;
+    padding: 20px; }
+
 /* ----------------- micro clearfix --------------- */
 /**
  * For modern browsers
@@ -226,7 +239,7 @@ h4.label {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 144, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 165, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf:before, .block:before, .primary-palette:before,
 .secondary-palette:before,
 .tertiary-palette:before,
@@ -240,7 +253,7 @@ h4.label {
   display: table;
   /* 2 */ }
 
-/* line 150, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 171, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf:after, .block:after, .primary-palette:after,
 .secondary-palette:after,
 .tertiary-palette:after {
@@ -250,7 +263,7 @@ h4.label {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 158, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 179, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf, .block, .primary-palette,
 .secondary-palette,
 .tertiary-palette {
