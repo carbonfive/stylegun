@@ -1,24 +1,220 @@
-/* line 3, /projects/stylegun/source/stylesheets/_logo.scss */
-.logo-a .logo-image {
-  background: url(/images/logoa.png) no-repeat;
-  width: 200px;
-  height: 100px; }
+/* line 10, /projects/stylegun/source/stylesheets/_logo.scss */
+.logo-image-white {
+  background: url(/images/stylegun-black.svg) no-repeat center center; }
 
-/* line 11, /projects/stylegun/source/stylesheets/_logo.scss */
-.logo-b .logo-image {
-  background: url(/images/logoc.png) no-repeat;
-  width: 200px;
-  height: 100px; }
+/* line 14, /projects/stylegun/source/stylesheets/_logo.scss */
+.logo-image-black {
+  background: url(/images/stylegun-white.svg) no-repeat center center; }
 
-/* line 20, /projects/stylegun/source/stylesheets/_logo.scss */
-.logo-a .logo-image, .logo-b .logo-image {
-  background-size: contain;
-  margin-top: 1rem; }
+/* line 18, /projects/stylegun/source/stylesheets/_logo.scss */
+.logo-image-white, .logo-image-black {
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/* line 4, /projects/stylegun/source/stylesheets/_hero-image.scss */
+.hero-image {
+  background: url(/images/heroimage.svg) no-repeat center;
+  background-size: cover;
+  min-height: 493px; }
+
+/* line 3, /projects/stylegun/source/stylesheets/_fonts.scss */
+h1 {
+  font-size: 4rem; }
+
+/* line 7, /projects/stylegun/source/stylesheets/_fonts.scss */
+h2 {
+  font-size: 3.5rem; }
+
+/* line 11, /projects/stylegun/source/stylesheets/_fonts.scss */
+h3 {
+  font-size: 3rem; }
+
+/* line 15, /projects/stylegun/source/stylesheets/_fonts.scss */
+h4 {
+  font-size: 2.5rem; }
+
+/* line 19, /projects/stylegun/source/stylesheets/_fonts.scss */
+h5 {
+  font-size: 2rem;
+  text-transform: uppercase; }
+
+/* line 24, /projects/stylegun/source/stylesheets/_fonts.scss */
+h6 {
+  font-size: 1.75rem;
+  font-weight: 100; }
+
+/* line 29, /projects/stylegun/source/stylesheets/_fonts.scss */
+p {
+  font-size: 1.5rem; }
+
+/* line 33, /projects/stylegun/source/stylesheets/_fonts.scss */
+a {
+  color: blue; }
 
 /* line 1, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 5, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #404040; }
+
+/* line 11, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+h1.label {
+  font-size: 2rem;
+  margin-bottom: 0;
+  display: inline-block; }
+
+/* line 17, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+h2.label {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  display: inline-block; }
+
+/* line 24, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+h3.label {
+  font-size: 1.75rem;
+  text-transform: uppercase; }
+
+/* line 29, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+h4.label {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #414042; }
+
+/* line 35, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.block {
+  width: 90%;
+  margin: 5% auto; }
+
+/* line 41, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.block.palette {
+  font-size: 0; }
+
+/* line 45, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.hero-image {
+  width: 100%;
+  margin: 0; }
+
+/*----------Project Name----------*/
+/* line 52, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.header {
+  margin: 0; }
+
+/* line 56, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.project-name {
+  width: 100%; }
+  /* line 58, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+  .project-name .container {
+    width: 90%;
+    margin: auto;
+    padding: 1rem; }
+
+/* line 65, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.primary-palette,
+.secondary-palette,
+.tertiary-palette {
+  margin-bottom: 20px; }
+
+/* line 71, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.primary-palette .color-tile {
+  width: 25%;
+  height: 20vw; }
+
+/* line 75, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-palette .color-tile {
+  width: 20%;
+  height: 16vw; }
+
+/* line 79, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.tertiary-palette .color-tile {
+  width: 10%;
+  height: 8vw; }
+
+/*----------Logo Options----------*/
+/* line 86, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.logo-options {
+  border-bottom: 1px solid #000; }
+
+/* line 90, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.logo-background {
+  display: inline-block;
+  position: relative;
+  width: 49.75vw;
+  height: 40vh; }
+  /* line 96, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+  .logo-background.white {
+    background-color: #fff; }
+  /* line 100, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+  .logo-background.black {
+    background-color: #000; }
+
+/*----------Color Palettes----------*/
+/* line 109, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.color-tile {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+  width: 8rem;
+  height: 8rem;
+  margin: 2%;
+  padding: 1%;
+  text-align: center; }
+
+/* line 121, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.primary-color-one {
+  background-color: #f7f7f7; }
+
+/* line 122, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.primary-color-two {
+  background-color: #f7f7f7; }
+
+/* line 123, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.primary-color-three {
+  background-color: #f7f7f7; }
+
+/* line 124, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-one {
+  background-color: #f7f7f7; }
+
+/* line 125, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-two {
+  background-color: #f7f7f7; }
+
+/* line 126, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-three {
+  background-color: #f7f7f7; }
+
+/* line 127, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-four {
+  background-color: #f7f7f7; }
+
+/* line 128, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-five {
+  background-color: #f7f7f7; }
+
+/* line 129, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.secondary-color-six {
+  background-color: #f7f7f7; }
+
+/* line 130, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.system-color-one {
+  background-color: #f7f7f7; }
+
+/* line 131, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.system-color-two {
+  background-color: #f7f7f7; }
+
+/* line 132, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+.system-color-three {
+  background-color: #f7f7f7; }
 
 /* ----------------- micro clearfix --------------- */
 /**
@@ -30,7 +226,7 @@ body {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 20, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 144, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf:before, .block:before, .primary-palette:before,
 .secondary-palette:before,
 .tertiary-palette:before,
@@ -44,7 +240,7 @@ body {
   display: table;
   /* 2 */ }
 
-/* line 26, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 150, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf:after, .block:after, .primary-palette:after,
 .secondary-palette:after,
 .tertiary-palette:after {
@@ -54,135 +250,8 @@ body {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 34, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 158, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 .cf, .block, .primary-palette,
 .secondary-palette,
 .tertiary-palette {
   *zoom: 1; }
-
-/* line 8, /projects/stylegun/source/stylesheets/all.scss */
-html {
-  font-size: 62.5%; }
-
-/* line 12, /projects/stylegun/source/stylesheets/all.scss */
-body {
-  color: #404040; }
-
-/* line 16, /projects/stylegun/source/stylesheets/all.scss */
-h1.label {
-  font-size: 3rem; }
-
-/* line 20, /projects/stylegun/source/stylesheets/all.scss */
-h2.label {
-  font-size: 2rem; }
-
-/* line 24, /projects/stylegun/source/stylesheets/all.scss */
-h3.label {
-  font-size: 1rem;
-  text-transform: uppercase; }
-
-/* line 30, /projects/stylegun/source/stylesheets/all.scss */
-.block {
-  margin: 20px auto;
-  width: 80%;
-  border-bottom: 1px solid #ccc; }
-
-/* line 38, /projects/stylegun/source/stylesheets/all.scss */
-.block.palette {
-  font-size: 0; }
-
-/*----------Project Name----------*/
-/* line 44, /projects/stylegun/source/stylesheets/all.scss */
-.project-name {
-  background-color: gray;
-  width: 100%; }
-  /* line 47, /projects/stylegun/source/stylesheets/all.scss */
-  .project-name .container {
-    width: 80%;
-    margin: auto; }
-
-/* line 53, /projects/stylegun/source/stylesheets/all.scss */
-.primary-palette,
-.secondary-palette,
-.tertiary-palette {
-  margin-bottom: 20px; }
-
-/* line 59, /projects/stylegun/source/stylesheets/all.scss */
-.primary-palette .color-tile {
-  width: 25%;
-  height: 20vw; }
-
-/* line 63, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-palette .color-tile {
-  width: 20%;
-  height: 16vw; }
-
-/* line 67, /projects/stylegun/source/stylesheets/all.scss */
-.tertiary-palette .color-tile {
-  width: 10%;
-  height: 8vw; }
-
-/*----------Logo Options----------*/
-/* line 74, /projects/stylegun/source/stylesheets/all.scss */
-.logo-a, .logo-b {
-  display: inline-block; }
-
-/*----------Color Palettes----------*/
-/* line 81, /projects/stylegun/source/stylesheets/all.scss */
-.color-tile {
-  font-size: 14px;
-  border: 1px solid #ccc;
-  display: block;
-  float: left;
-  width: 8rem;
-  height: 8rem;
-  margin: auto;
-  text-align: center; }
-
-/* line 92, /projects/stylegun/source/stylesheets/all.scss */
-.primary-color-one {
-  background-color: #f7c7f7; }
-
-/* line 93, /projects/stylegun/source/stylesheets/all.scss */
-.primary-color-two {
-  background-color: #f7f7c7; }
-
-/* line 94, /projects/stylegun/source/stylesheets/all.scss */
-.primary-color-three {
-  background-color: #c7f7f7; }
-
-/* line 95, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-one {
-  background-color: #a7f7f7; }
-
-/* line 96, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-two {
-  background-color: #f7a7f7; }
-
-/* line 97, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-three {
-  background-color: #f7f7a7; }
-
-/* line 98, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-four {
-  background-color: #37f7f7; }
-
-/* line 99, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-five {
-  background-color: #f737f7; }
-
-/* line 100, /projects/stylegun/source/stylesheets/all.scss */
-.secondary-color-six {
-  background-color: #f7f737; }
-
-/* line 101, /projects/stylegun/source/stylesheets/all.scss */
-.system-color-one {
-  background-color: #e7e7f7; }
-
-/* line 102, /projects/stylegun/source/stylesheets/all.scss */
-.system-color-two {
-  background-color: #f7e7e7; }
-
-/* line 103, /projects/stylegun/source/stylesheets/all.scss */
-.system-color-three {
-  background-color: #e7f7e7; }
