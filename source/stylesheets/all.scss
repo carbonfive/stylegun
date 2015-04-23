@@ -28,11 +28,12 @@ h3.label {
 }
 
 .block {
-  margin: auto;
+  margin: 20px auto;
   width: 80%;
   border-bottom: 1px solid #ccc;
-  clear:both;
+  @extend .cf;
 }
+
 
 .block.palette {
   font-size:0;
@@ -40,15 +41,33 @@ h3.label {
 
 /*----------Project Name----------*/
 
- .project-name {
-   background-color: gray;
-   width: 100%;
-    .container {
-      width: 80%;
-      margin: auto;
-    }
- }
+.project-name {
+  background-color: gray;
+  width: 100%;
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+}
 
+.primary-palette,
+.secondary-palette,
+.tertiary-palette {
+  @extend .cf;
+  margin-bottom: 20px;
+}
+.primary-palette .color-tile {
+  width: 25%;
+  height: 20vw;
+}
+.secondary-palette .color-tile {
+  width: 20%;
+  height: 16vw;
+}
+.tertiary-palette .color-tile {
+  width: 10%;
+  height: 8vw;
+}
 
 /*----------Logo Options----------*/
 
