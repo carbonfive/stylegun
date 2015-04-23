@@ -1,74 +1,74 @@
-/* line 3, /Users/alexaroman/projects/stylegun/source/stylesheets/_logo.scss */
+/* line 3, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-a .logo-image {
   background: url(/images/logoa.png) no-repeat;
   width: 200px;
   height: 100px; }
 
-/* line 11, /Users/alexaroman/projects/stylegun/source/stylesheets/_logo.scss */
+/* line 11, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-b .logo-image {
   background: url(/images/logoc.png) no-repeat;
   width: 200px;
   height: 100px; }
 
-/* line 20, /Users/alexaroman/projects/stylegun/source/stylesheets/_logo.scss */
+/* line 20, /projects/stylegun/source/stylesheets/_logo.scss */
 .logo-a .logo-image, .logo-b .logo-image {
   background-size: contain;
   margin-top: 1rem; }
 
-/* line 1, /Users/alexaroman/projects/stylegun/source/stylesheets/_stylegunstyles.scss */
+/* line 1, /projects/stylegun/source/stylesheets/_stylegunstyles.scss */
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem; }
 
-/* line 8, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 8, /projects/stylegun/source/stylesheets/all.scss */
 html {
   font-size: 62.5%; }
 
-/* line 12, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 12, /projects/stylegun/source/stylesheets/all.scss */
 body {
   color: #404040; }
 
-/* line 16, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 16, /projects/stylegun/source/stylesheets/all.scss */
 h1.label {
   font-size: 3rem; }
 
-/* line 20, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 20, /projects/stylegun/source/stylesheets/all.scss */
 h2.label {
   font-size: 2rem; }
 
-/* line 24, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 24, /projects/stylegun/source/stylesheets/all.scss */
 h3.label {
   font-size: 1rem;
   text-transform: uppercase; }
 
-/* line 30, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 30, /projects/stylegun/source/stylesheets/all.scss */
 .block {
   margin: auto;
   width: 80%;
   border-bottom: 1px solid #ccc;
   clear: both; }
 
-/* line 37, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 37, /projects/stylegun/source/stylesheets/all.scss */
 .block.palette {
   font-size: 0; }
 
 /*----------Project Name----------*/
-/* line 43, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 43, /projects/stylegun/source/stylesheets/all.scss */
 .project-name {
   background-color: gray;
   width: 100%; }
-  /* line 46, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+  /* line 46, /projects/stylegun/source/stylesheets/all.scss */
   .project-name .container {
     width: 80%;
     margin: auto; }
 
 /*----------Logo Options----------*/
-/* line 55, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 55, /projects/stylegun/source/stylesheets/all.scss */
 .logo-a, .logo-b {
   display: inline-block; }
 
 /*----------Color Palettes----------*/
-/* line 62, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 62, /projects/stylegun/source/stylesheets/all.scss */
 .color-tile {
   font-size: 14px;
   border: 1px solid #ccc;
@@ -79,50 +79,50 @@ h3.label {
   margin: auto;
   text-align: center; }
 
-/* line 73, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 73, /projects/stylegun/source/stylesheets/all.scss */
 .primary-color-one {
   background-color: #f7f7f7; }
 
-/* line 74, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 74, /projects/stylegun/source/stylesheets/all.scss */
 .primary-color-two {
   background-color: #f7f7f7; }
 
-/* line 75, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 75, /projects/stylegun/source/stylesheets/all.scss */
 .primary-color-three {
   background-color: #f7f7f7; }
 
-/* line 76, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 76, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-one {
   background-color: #f7f7f7; }
 
-/* line 77, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 77, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-two {
   background-color: #f7f7f7; }
 
-/* line 78, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 78, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-three {
   background-color: #f7f7f7; }
 
-/* line 79, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 79, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-four {
   background-color: #f7f7f7; }
 
-/* line 80, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 80, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-five {
   background-color: #f7f7f7; }
 
-/* line 81, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 81, /projects/stylegun/source/stylesheets/all.scss */
 .secondary-color-six {
   background-color: #f7f7f7; }
 
-/* line 82, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 82, /projects/stylegun/source/stylesheets/all.scss */
 .system-color-one {
   background-color: #f7f7f7; }
 
-/* line 83, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 83, /projects/stylegun/source/stylesheets/all.scss */
 .system-color-two {
   background-color: #f7f7f7; }
 
-/* line 84, /Users/alexaroman/projects/stylegun/source/stylesheets/all.scss */
+/* line 84, /projects/stylegun/source/stylesheets/all.scss */
 .system-color-three {
   background-color: #f7f7f7; }

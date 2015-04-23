@@ -2,7 +2,9 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
+gem 'rake'
 gem "middleman", "~>3.3.10"
+gem 'middleman-gh-pages'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
