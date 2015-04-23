@@ -66,7 +66,9 @@ Open Source, then Images and add images or graphics there
 
 ## Customizing styles
 
-Open the whole folder in your text editor (Sublime, Atom, Brackets, etc). In the stylesheets folder, you will see partials for Fonts, Colors, Logo, and Hero Image.
+Open the whole folder in your text editor (Sublime, Atom, Brackets, etc). 
+
+In the Source folder, you will find the stylesheets folder. In stylesheets, you will see partials for Fonts, Colors, Logo, and Hero Image.
 
 You only need to edit the partials, which are the stylesheets starting with a _
 You can add hex codes, images and fonts there.
