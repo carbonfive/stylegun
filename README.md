@@ -59,7 +59,7 @@ Open the address in your browser (localhost:4567) and there's your page!
 
 Open the folder (through your GUI or through the command line)
 
-`` Open . ``
+`` open . ``
 
 Open Source, then Images and add images or graphics there.
 
@@ -92,3 +92,7 @@ Open the address in your browser (localhost:4567) and there's your page!
 (coming soon)
 
 * For multiple styles
+
+# References
+
+* What is middleman? http://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
